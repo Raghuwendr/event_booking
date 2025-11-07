@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9418d3ff-41cb-4a63-9af6-d5e11ac3b336" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/EventCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ExploreBtn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/audience.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/audience.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/mode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/mode.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/icons/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event-full.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event-full.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/images/event6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -44,8 +64,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -62,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762186194348</updated>
-      <workItem from="1762186195477" duration="5177000" />
+      <workItem from="1762186195477" duration="22483000" />
     </task>
     <servers />
   </component>

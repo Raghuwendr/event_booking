@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9418d3ff-41cb-4a63-9af6-d5e11ac3b336" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/EventCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ExploreBtn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/booking.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/event.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mongodb.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/arrow-down.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/audience.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/audience.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/clock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/mode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/mode.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/icons/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/pin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event-full.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event-full.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/images/event6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/event6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/EventCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/EventCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -50,7 +38,10 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/raghwendra.kumar/Documents/event_booking&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -68,6 +59,21 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +88,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762186194348</updated>
-      <workItem from="1762186195477" duration="22483000" />
+      <workItem from="1762186195477" duration="24886000" />
+      <workItem from="1762496051043" duration="797000" />
+      <workItem from="1762497087466" duration="1868000" />
+      <workItem from="1762525607161" duration="7796000" />
     </task>
     <servers />
   </component>

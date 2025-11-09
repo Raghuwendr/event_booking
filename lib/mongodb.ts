@@ -29,6 +29,7 @@ if (!global.mongoose) {
  */
 async function connectDB(): Promise<typeof mongoose> {
     // Return existing connection if available
+    debugger
     if (cached.conn) {
         return cached.conn;
     }

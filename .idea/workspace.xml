@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9418d3ff-41cb-4a63-9af6-d5e11ac3b336" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/BookEvent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions/event.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/booking.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/events/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/events/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/events/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/events/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookEvent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookEvent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/event.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/event.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1762186195477" duration="24886000" />
       <workItem from="1762496051043" duration="797000" />
       <workItem from="1762497087466" duration="1868000" />
-      <workItem from="1762525607161" duration="37916000" />
+      <workItem from="1762525607161" duration="42632000" />
     </task>
     <servers />
   </component>
@@ -97,10 +98,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/page.tsx</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/app/events/[slug]/page.tsx</url>
+          <line>65</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

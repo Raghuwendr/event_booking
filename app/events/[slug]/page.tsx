@@ -4,6 +4,7 @@ import BookEvent from "@/components/BookEvent";
 import {getSimilarEventsBySlug} from "@/lib/actions/event.actions";
 import {IEvent} from '@/database/event.model';
 import EventCard from "@/components/EventCard";
+import {cacheLife} from "next/cache";
 
 const EventDetailItem =({icon,alt,label}:{icon:string,alt:string,label:string}) =>(
     <div className='flex-row-gap-2 items-center'>
@@ -33,6 +34,8 @@ const EventTags =({tags}:{tags:string[]}) =>(
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 const EventDetailPage = async ({params}:{params :Promise<{slug:string}>}) => {
+    'use cache'
+    cacheLife('hours')
     const {slug} = await params;
     let event;
     try {
@@ -116,7 +119,7 @@ const EventDetailPage = async ({params}:{params :Promise<{slug:string}>}) => {
                                </p>
 
                            }
-                           <BookEvent />
+                           <BookEvent eventId={event._id} slug={event.slug}/>
                        </div>
                    </aside>
 

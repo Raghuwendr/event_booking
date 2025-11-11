@@ -10,8 +10,8 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export default async function Home() {
      'use cache';
      cacheLife('hours');
-    const response= await fetch(`${BASE_URL}/api/events`);
-     const {events} = await response.json();
+    //const response= await fetch(`${BASE_URL}/api/events`);
+     //const {events} = await response.json();
     return (
   <section>
       <h1 className="text-center">The Hub for Every Dev <br /> Event You Can't Miss</h1>
